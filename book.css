@@ -1,0 +1,106 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f9f9fb;
+  color: #003399;
+  margin: 0;
+}
+
+.travel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.travel-left {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.travel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.travel-item .icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.travel-item .logo {
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.travel-item p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.travel-item a {
+  text-decoration: underline;
+  color: #003399;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.travel-item a:hover {
+  color: #0056ff;
+}
+
+.divider {
+  width: 1px;
+  background: #ccc;
+  height: 100px;
+}
+
+.travel-right ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.travel-right li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+.travel-right a {
+  text-decoration: none;
+  color: #003399;
+  transition: color 0.3s;
+}
+
+.travel-right a:hover {
+  color: #0056ff;
+}
+
+
+@media (max-width: 768px) {
+  .travel-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .travel-left {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .travel-right ul {
+    margin-top: 20px;
+  }
+}

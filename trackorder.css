@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+  color: #222;
+}
+
+
+.header {
+  background: #fff;
+  text-align: center;
+  padding: 15px 0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.header img {
+  height: 40px;
+}
+
+
+.track-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.track-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px 30px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.track-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.track-title .icon {
+  font-size: 28px;
+}
+
+.track-title h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+
+.search-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-section p {
+  margin: 0;
+}
+
+.search-section label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+form input:focus {
+  border-color: #3b82f6;
+}
+
+form button {
+  margin-top: 15px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #1e4ed8;
+}
+
+
+@media (max-width: 480px) {
+  .track-box {
+    padding: 25px 20px;
+  }
+
+  .track-title h2 {
+    font-size: 18px;
+  }
+
+  form button {
+    font-size: 15px;
+  }
+}
