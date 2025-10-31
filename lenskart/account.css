@@ -1,0 +1,163 @@
+.container{
+    height: 100vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.head{
+    display: flex;
+    width: 40vw;
+    margin-left: -40px;
+}
+
+.head h1{
+    margin-left: 5vw;
+    color: darkblue;
+}
+
+.cross{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 1vw;
+    margin-left: 12vw;
+}
+
+input-all{
+    display: block;
+
+}
+
+input{
+    display: block;
+    height: 7vh;
+    width: 30vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-left: 1vw;
+    font-size: large;
+    border: 2px solid grey;
+}
+
+.create{
+    display: flex;
+    margin-left: 2vw;
+    
+}
+.create p{
+    color: darkblue;
+    font-size: 2vh;
+    
+}
+
+.create a{
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.whatsapp-update {
+  display: flex;
+  align-items: center; 
+  
+  font-family: Arial, sans-serif;
+  margin-left: 1.5vw;
+}
+
+label{
+    color: darkblue;
+    font-size: small;
+}
+
+.whatsapp-update img {
+  width: 20px;
+  height: 20px;
+}
+
+.optional {
+  color: #777;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.whatsapp-update {
+  margin: 15px 0;
+}
+
+.whatsapp-update label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  margin-left: 5vw;
+}
+
+.whatsapp-update input {
+  accent-color: #2a1f70;
+}
+
+.whatsapp-update img {
+  height: 16px;
+  width: 16px;
+}
+
+.policy-text {
+  font-size: 12px;
+  color: #555;
+  margin: 10px 0;
+  margin-left: 5vw;
+}
+
+.privacy-link {
+  color: #2a1f70;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.create-btn {
+  background-color: #d9d9d9;
+  color: #2a1f70;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 40px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px 0;
+  width: 250px;
+  font-weight: 500;
+  margin-left: 10vw;
+}
+
+.create-btn:hover {
+  background-color: #c7c7c7;
+}
+
+.signin-text {
+  font-size: 13px;
+  color: #555;
+  margin-left: 15vw;
+}
+
+.signin-link {
+  color: #2a1f70;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.whatsapp-update input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  accent-color: #2a1f70;
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 80vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.imgdiv{
+    height: 30vh;
+    width: 35vw;
+}
+
+.imgdiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.signIn{
+    font-size: 3vh;
+    padding: 40px;
+    color: darkblue;
+}
+
+.input{
+    height: 6vh;
+    width: 30vw;
+    margin-left: 1.5vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-left: 2vw;
+    font-size: 2vh;
+    
+}
+
+p{
+    font-size: small;
+    margin-left: 2vw;
+    margin-top: 0vh;
+    color: red;
+}
+
+.whatsapp-update {
+  display: flex;
+  align-items: center; 
+  gap: 5px; 
+  font-family: Arial, sans-serif;
+  margin-left: 1.5vw;
+}
+
+label{
+    color: darkblue;
+    font-size: small;
+}
+
+.whatsapp-update img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn{
+    height: 7vh;
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    border-radius: 25px;
+    background-color: lightgrey;
+    color: darkblue;
+    font-size: larger;
+    border: none;
+    
+}
+.create{
+    display: flex;
+    margin-top: 5vh;
+}
+.create p{
+    color: darkblue;
+    font-size: 2vh;
+    
+}
+
+.create a{
+    font-weight: bolder;
+}
+
+.cross{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+    margin-top: -29vh;
+    margin-left: 30vw;
+}

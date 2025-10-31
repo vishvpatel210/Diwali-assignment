@@ -1,0 +1,483 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.conatiner{
+    width: 100vw;
+    height: 100%;
+    
+}
+.nav{
+    height: 8vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.mo img{
+    height: 4vh;
+}
+
+.searchbar{
+    height: 4vh;
+    width: 35vw;
+}
+
+.all{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.all a{
+    text-decoration: none;
+}
+
+.Track-Order{
+    height: 1vh;
+    color: darkblue;
+}
+
+.sign-in{
+    color: darkblue;
+    height: 1vh;
+}
+
+.wishlist{
+    color: darkblue;
+    height: 1vh;
+    display: flex;
+}
+
+.wishlist img{
+    height: 2vh;
+}
+
+.cart{
+    display: flex;
+    color: darkblue;
+}
+
+.searchbar{
+    margin-left: 50px;
+}
+
+.small-nav{
+    display: flex;
+    gap: 0vw;
+    padding-left: 2vw;
+    color: darkblue;
+    width: 100vw;
+    height: 8vh;
+    
+}
+
+.type{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.threed{
+    display: flex;
+    align-items: center;
+    margin-left: 15vw;
+    
+}
+
+.threed img{
+    height: 3vh;
+    border-radius: 5px;
+}
+
+.glasses-type{
+    display: flex;
+    background-color: rgb(223, 218, 218);
+    height: 25vh;
+
+}
+
+.box{
+    background-color: white;
+    height: 19vh;
+    width: 15vw;
+    border-radius: 7px;
+    margin: 2vh;
+}
+
+.box img{
+    height: 13vh;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.glass-name{
+    color: rgb(138, 136, 136);
+    margin-left: 10vh;
+}
+
+.shape-list{
+    display: block;
+}
+
+.shape-item{
+    display: flex;
+}
+
+.box:hover{
+    transform: translateZ(20px);
+}
+
+.box:hover .shape-list{
+    display: block;
+    background-color: white;
+    border-top: 1px grey solid;
+}
+
+.shape-item{
+    border-top: 1px grey solid;
+}
+
+.shape-item img{
+    height: 50px;
+}
+
+.shape-list{
+    display: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.view-all{
+    color: blue;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px grey solid;
+}
+
+.wear{
+    font-size: 40px;
+    font-weight: bolder;
+    width: 200px;
+    margin-left: 4vw;
+    margin-top:4px;
+}
+
+.collection{
+    margin-left: 4vw;
+}
+
+.mid{
+    display: flex;
+}
+
+.chashma1 img{
+    height: 15vh;
+}
+
+.round{
+    text-align: center;
+    font-size: 2.60vh;
+}
+
+.ebtn{
+    height: 5vh;
+    width: 10vw;
+    background-color: lightblue;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+
+.title-line{
+    font-size: 5vh;
+    margin-left: 50vh;
+    margin-top: 5vh;
+}
+
+.offer-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.offer-line::before,
+.offer-line::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 0 15px;
+}
+
+.offer-line span {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.two-img{
+    display: flex;
+}
+
+.four-img{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.view-range{
+    display: flex;
+    justify-content: space-between;
+    width:  80%;
+    margin-left: 10%;
+    border-bottom: 1px solid gray;
+   
+
+}
+
+.eyeglass{
+    color: gray;
+    font-weight: bold;
+}
+
+.range{
+    color: green;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+.view-glasses{
+    display: flex;
+}
+
+.view-glasses{
+    height: 20vh;
+    gap: 50px;
+    margin-left: 25vh;
+    margin-top: 5vh;
+}
+
+.footer{
+    background-color: darkblue;
+}
+
+.footer h1{
+    color: white;
+    padding: 50px;
+}
+
+.footer p{
+    color: white;
+    margin: 50px;
+    margin-top: -40px;
+}
+
+.footer-main{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.three-column{
+    display: flex;
+    gap: 60px;
+}
+
+.services{
+    color: white;
+    
+}
+
+.item{
+    margin-top: 10px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.aboutus{
+    color: white;
+}
+
+.help{
+    color: white;
+}
+
+.applogo{
+    margin: 40px;
+}
+
+.footer {
+  background-color: #000033;
+  padding: 10px 40px;
+  font-size: 14px;
+}
+
+.footer hr {
+  border: 0.5px solid #ffffff50; /* thin white line */
+  margin-bottom: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.left-links a:hover {
+  text-decoration: underline;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.right-links a:hover {
+  color: #00aced;
+}
+
+.divider {
+  margin: 0 10px;
+  color: white;
+}
+
+span{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .searchbar {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .all {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .small-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .glasses-type {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 80vw;
+    height: auto;
+  }
+
+  .view-range {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .view-glasses {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .ebtn {
+    width: 60vw;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-links,
+  .right-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer h1 {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

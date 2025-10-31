@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eyeglasses Hover Menu</title>
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #fafafa, #e6e6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 220px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.container img.main-img {
+  width: 120px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.container:hover img.main-img {
+  transform: scale(1.05);
+}
+
+.title {
+  color: #6a6a6a;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+/* hidden list by default */
+.shape-list {
+  display: none;
+  border-top: 1px solid #eee;
+}
+
+/* show list on hover */
+.container:hover .shape-list {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+.shape-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.shape-item:hover {
+  background: #f5f5f5;
+}
+
+.shape-item img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.shape-item span {
+  color: #333;
+  font-size: 15px;
+}
+
+.view-all {
+  color: #1a4eff;
+  padding: 10px;
+  font-weight: bold;
+  border-top: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.view-all:hover {
+  background: #f2f6ff;
+}
+
+/* fade animation */
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(-5px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="https://static.lenskart.com/media/desktop/img/men-cat-eye.png" alt="Main Glass" class="main-img">
+  <div class="title">Eyeglasses</div>
+
+  <div class="shape-list">
+    <div class="shape-item">
+      <img src="https://static.lenskart.com/media/desktop/img/Square.png" alt="">
+      <span>Square</span>
+    </div>
+    <div class="shape-item">
+      <img src="https://static.lenskart.com/media/desktop/img/Rectangle.png" alt="">
+      <span>Rectangle</span>
+    </div>
+    <div class="shape-item">
+      <img src="https://static.lenskart.com/media/desktop/img/Round.png" alt="">
+      <span>Round</span>
+    </div>
+    <div class="shape-item">
+      <img src="https://static.lenskart.com/media/desktop/img/Geometric.png" alt="">
+      <span>Geometric</span>
+    </div>
+    <div class="view-all">View all shapes</div>
+  </div>
+</div>
+
+</body>
+</html>
