@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+}
+.login-page{
+    display: flex;
+    background-color: white;
+    height: 47vh;
+    width: 70vw;
+    border: 1px solid black;
+    margin: 20vh auto;
+}
+
+.img{
+    height: 40vh;
+    width: 30vw;
+    margin: 25px;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-content{
+    width: 30vw;
+    padding-left: 10vw;
+    padding-top: 10vh;
+}
+
+.text-content div{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.text-content p{
+    
+    font-size: 0.9rem;
+
+}
+
+.text-content input{
+    height: 5vh;
+    width: 20vw;
+    display: block;
+}
+
+.text-content button{
+    height: 5vh;
+    width: 20.6vw;
+    display: block;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
