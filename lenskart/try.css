@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* FIXED typo + vw issue */
+.container {
+  width: 100%;
+  height: auto;
+}
+
+/* NAVBAR */
+.nav {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.mo img {
+  height: 4vh;
+}
+
+.searchbar {
+  height: 4vh;
+  width: 35%;
+  margin-left: 50px;
+}
+
+.all {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.all a {
+  text-decoration: none;
+}
+
+.Track-Order,
+.sign-in,
+.wishlist,
+.cart {
+  color: darkblue;
+}
+
+.wishlist {
+  display: flex;
+}
+
+.wishlist img {
+  height: 2vh;
+}
+
+.cart {
+  display: flex;
+}
+
+/* SMALL NAV */
+.small-nav {
+  display: flex;
+  padding-left: 2vw;
+  color: darkblue;
+  width: 100%;
+  height: 8vh;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.threed {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 2vw;
+}
+
+.threed img {
+  height: 3vh;
+  border-radius: 5px;
+}
+
+/* GLASSES TYPE */
+.glasses-type {
+  display: flex;
+  background-color: rgb(223, 218, 218);
+  min-height: 25vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  background-color: white;
+  height: 19vh;
+  width: 15vw;
+  border-radius: 7px;
+  margin: 2vh;
+}
+
+.box img {
+  height: 13vh;
+  margin: 5px auto;
+  display: block;
+}
+
+.glass-name {
+  color: rgb(138, 136, 136);
+  text-align: center;
+}
+
+/* HOVER MENU */
+.shape-list {
+  display: none;
+}
+
+.box:hover .shape-list {
+  display: block;
+  background-color: white;
+  border-top: 1px solid grey;
+}
+
+.shape-item {
+  display: flex;
+  border-top: 1px solid grey;
+}
+
+.shape-item img {
+  height: 50px;
+}
+
+.view-all {
+  color: blue;
+  text-align: center;
+  height: 40px;
+  padding-top: 10px;
+  border-top: 1px solid grey;
+}
+
+/* MID SECTION */
+.mid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wear {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 4vw;
+}
+
+.collection {
+  margin-left: 4vw;
+}
+
+.chashma1 img {
+  height: 15vh;
+}
+
+.round {
+  text-align: center;
+  font-size: 2.6vh;
+}
+
+.ebtn {
+  height: 5vh;
+  width: 10vw;
+  background-color: lightblue;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  margin-top: 2vh;
+}
+
+/* TITLE */
+.title-line {
+  font-size: 5vh;
+  text-align: center;
+  margin: 5vh 0;
+}
+
+/* OFFER LINE */
+.offer-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.offer-line::before,
+.offer-line::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 0 15px;
+}
+
+.offer-line span {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+/* IMAGES */
+.two-img,
+.four-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* VIEW RANGE */
+.view-range {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.eyeglass {
+  color: gray;
+  font-weight: bold;
+}
+
+.range {
+  color: green;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.view-glasses {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 5vh 0;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #000033;
+  padding: 20px 40px;
+  font-size: 14px;
+}
+
+.footer h1,
+.footer p,
+.services,
+.aboutus,
+.help,
+span {
+  color: white;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.three-column {
+  display: flex;
+  gap: 60px;
+}
+
+.footer hr {
+  border: 0.5px solid #ffffff50;
+  margin-bottom: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-links a,
+.right-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav,
+  .small-nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .searchbar {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .glasses-type {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 80vw;
+    height: auto;
+  }
+
+  .view-range,
+  .view-glasses {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ebtn {
+    width: 60vw;
+  }
+}

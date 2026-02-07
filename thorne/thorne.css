@@ -4,7 +4,9 @@
     font-family: sans-serif;
     font-size: small;
 }
-
+body{
+  overflow-x: hidden;
+}
 .container {
     width: 100%;
     height: 100%;
@@ -12,10 +14,7 @@
     overflow: hidden;
 }
 
-/* .two-nav{
-    position: fixed;
-    
-} */
+
 
 
 .top {
@@ -39,7 +38,6 @@
 
 .logo {
     width: 13vw;
-    border: 1px solid red;
     padding-top: 10px;
     margin-left: 2vw;
 
@@ -52,7 +50,6 @@
 .nav-main {
     width: 50vw;
     display: flex;
-    border: 1px solid green;
     gap: 30px;
     align-items: center;
     margin-left: 1vw;
@@ -61,7 +58,6 @@
 #explore {
     height: 3vh;
     width: 7vw;
-    background-color: rgb(210, 63, 131);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,8 +67,7 @@
 }
 
 .right-side {
-    display: flex;
-    border: 1px solid red;
+    display: flex;                                           
     margin-right: 1vw;
     justify-content: center;
     align-items: center;
@@ -145,7 +140,6 @@
 
 .main-text {
     text-align: center;
-    border: 1px solid black;
     margin-top: 15vh;
 }
 
@@ -158,8 +152,7 @@
     width: 65%;
     font-size: 1.5rem;
     font-weight: 550;
-    border: 1px solid green;
-    margin-left: 15vw;
+    margin-left: 25vw;
     margin-top: 4vh;
 }
 
@@ -187,7 +180,6 @@
     display: flex;
     height: 70vh;
     width: 75%;
-    border: 1px solid red;
     margin-left: 15%;
     margin-top: 10vh;
     
@@ -195,7 +187,6 @@
 .fit-img{
     height: 100%;
     width: 40vw;
-    border: 1px solid green;
 }
 .big-img img{
     object-fit: cover;
@@ -211,12 +202,12 @@
 .side-text p{
     font-size: 1.3rem;
     /* text-align: center; */
-    border: 1px solid orange;
+    
     margin-top: 5vh;
 }
 .btn1{
     width: 400px;
-    border: 1px solid brown;
+    
     
 }
 .btn1 button{
@@ -242,7 +233,7 @@
     margin-top: 3vh;
 }
 .product1{
-    border: 1px solid red;
+    
 }
 .product1 img{
     height: 30vh;
@@ -254,7 +245,6 @@
 .ingre{
     font-size: 3rem;
     font-weight: bold;
-    border: 1px solid green;
     width: 16vw;
     /* white-space: normal; */
   word-wrap: break-word;
